@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Birthday Gift - Message</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  font-family: 'Poppins', sans-serif;
+  color: #3a2e00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+  animation: slideIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 1rem 20px 2rem 20px;
+  font-weight: 400;
+  max-width: 600px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+  animation: slideIn 1.8s ease forwards;
+  opacity: 0;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #3a2e00;
+  border: 2px solid #3a2e00;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+  user-select: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background-color: #3a2e00;
+  color: #ffd200;
+  cursor: pointer;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>🎈 A Special Birthday Message 🎈</h1>
+<p>
+  May your birthday be the start of a year filled with good luck, good health, and much happiness.  
+  Enjoy your special day to the fullest and remember you are loved more than you know!
+</p>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="animation.html">See Animation</a>
+</nav>
+
+</body>
+</html>

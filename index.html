@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Birthday Gift - Welcome</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 15px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  user-select: none;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #6a82fb;
+  cursor: pointer;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #f0a, 0 0 30px #f0a;
+    color: #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 40px #f06, 0 0 60px #f06;
+    color: #ffc0cb;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>🎉 Happy Birthday! 🎉</h1>
+<p>Welcome! Click below to explore your special birthday gift.</p>
+<nav>
+  <a href="message.html">Birthday Message</a>
+  <a href="animation.html">Fun Animation</a>
+</nav>
+
+</body>
+</html>
+
